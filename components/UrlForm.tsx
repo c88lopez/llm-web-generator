@@ -83,7 +83,7 @@ export default function UrlForm() {
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           onBlur={handleBlur}
-          placeholder="https://example.com"
+          placeholder="https://www.example.com"
           className={`w-full rounded-lg border px-4 py-3 text-base text-gray-900 outline-none transition focus:ring-2 ${
             error
               ? "border-red-400 focus:ring-red-300"
